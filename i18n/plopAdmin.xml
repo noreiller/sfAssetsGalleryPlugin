@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit>
+        <source>Asset</source>
+        <target>Média</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Asset gallery</source>
+        <target>Galerie de média</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Asset galleries list</source>
+        <target>Liste des galeries de média</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Custom gallery asset</source>
+        <target>Média de galerie personnalisé</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thumbnail size</source>
+        <target>Taille de miniature</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Only used if the pagination contains thumbnails.</source>
+        <target>Seulement utilisé si la pagination contient des miniatures.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Full</source>
+        <target>Pleine largeur</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Small</source>
+        <target>Petit</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Large</source>
+        <target>Grand</target>
+      </trans-unit>
+<!--      <trans-unit>
+        <source></source>
+        <target></target>
+      </trans-unit>-->
+    </body>
+  </file>
+</xliff>

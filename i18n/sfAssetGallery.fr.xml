@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit>
+        <source>[0]No element|[1]One element|(1,Inf]%s elements</source>
+        <target>[0]Aucun élément|[1]Un élément|(1,Inf]%s éléments</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Created on %s</source>
+        <target>Créé(e) le %s</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Updated on %s</source>
+        <target>Mis(e) à jour le %s</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Title</source>
+        <target>Titre</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Title</source>
+        <target>Titre</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Is published ?</source>
+        <target>Est publié(e) ?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Asset</source>
+        <target>Média</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thumb</source>
+        <target>Miniature</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New element</source>
+        <target>Nouvel élément</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Gallery</source>
+        <target>Galerie</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hidden</source>
+        <target>Caché</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Author</source>
+        <target>Auteur</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Copyright</source>
+        <target>Droit d'auteur</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Pagination</source>
+        <target>Pagination</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thumbs in slider</source>
+        <target>Miniatures dans un carousel</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Numbers</source>
+        <target>Numéros</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thumbs</source>
+        <target>Miniatures</target>
+      </trans-unit>
+<!--      <trans-unit>
+        <source></source>
+        <target></target>
+      </trans-unit>-->
+    </body>
+  </file>
+</xliff>

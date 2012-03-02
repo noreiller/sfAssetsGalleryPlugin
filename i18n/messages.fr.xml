@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>   
+      <trans-unit>
+        <source>Editing gallery "%%title%%"</source>
+        <target>Edition de la galerie "%%title%%"</target>
+      </trans-unit>
+      <trans-unit>
+        <source>List of the galleries</source>
+        <target>Liste des galeries</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Creating new gallery</source>
+        <target>Création d'une nouvelle galerie</target>
+      </trans-unit>
+<!--      <trans-unit>
+        <source></source>
+        <target></target>
+      </trans-unit>-->
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,24 @@
+propel:
+  _attributes:          { package: plugins.sfAssetsGalleryPlugin.lib.model }
+
+  sf_asset_gallery:
+    _attributes:        { phpName: sfAssetGallery }
+    id:
+    title:              { type: varchar, size: 255 }
+    is_published:       { type: boolean, default: true }
+    created_at:         { type: timestamp }
+    updated_at:         { type: timestamp }
+
+  sf_asset_gallery_element:
+    _attributes:        { phpName: sfAssetGalleryElement }
+    _propel_behaviors:
+      sortable:
+        use_scope:      true
+        scope_column:   gallery_id
+    id:
+    gallery_id:         { type: integer, foreignTable: sf_asset_gallery, foreignReference: id, required: true, onDelete: cascade }
+    asset_id:           { type: integer, foreignTable: sf_asset, foreignReference: id, required: true, onDelete: cascade }
+    thumb_id:           { type: integer, foreignTable: sf_asset, foreignReference: id, required: true, onDelete: cascade }
+    created_at:         { type: timestamp }
+    updated_at:         { type: timestamp }
+

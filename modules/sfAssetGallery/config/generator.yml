@@ -1,0 +1,27 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           sfAssetGallery
+    theme:                 admin15
+    non_verbose_templates: true
+    with_show:             false
+    singular:              sfAssetGallery
+    plural:                sfAssetGallerys
+    route_prefix:          sfAssetGallery
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: 'List of the galleries'
+        layout: stacked
+        display: [title, is_published, created_at, updated_at]
+      filter:
+        class: false
+      form:    ~
+      edit:
+        title: 'Editing gallery "%%title%%"'
+      new:     
+        title: 'Creating new gallery'

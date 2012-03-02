@@ -1,0 +1,17 @@
+# sfGuardPlugin
+sfGuardPermission:
+  sfAssetLibrary:
+    name: sfAssetLibrary
+    description: Media library
+  sfAssetGallery:
+    name: sfAssetGallery
+    description: Media galleries
+
+sfGuardGroupPermission:
+  admin_sfAssetLibrary:
+    group_id: admin
+    permission_id: sfAssetLibrary
+  admin_sfAssetGallery:
+    group_id: admin
+    permission_id: sfAssetGallery
+

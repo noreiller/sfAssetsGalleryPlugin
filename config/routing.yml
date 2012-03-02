@@ -1,0 +1,8 @@
+sfAssetGallery:
+  class: sfPropelORMRouteCollection
+  options:
+    model:                sfAssetGallery
+    module:               sfAssetGallery
+    prefix_path:          /asset/:sf_culture/gallery
+    column:               id
+    with_wildcard_routes: true
